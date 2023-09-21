@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+.body {
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.banner {
+    border: 5px solid red;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    border: 5px solid orange;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.link {
+    border: 5px solid yellow;
+    padding: 5px;
+}
+
+.title {
+    border: 5px solid fuchsia;
+    padding: 5px;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 5px solid turquoise;
+    padding: 5px;
+    gap: 5px;
+}
+
+.mainArea {
+    border: 5px solid green;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.sidebar {
+    border: 5px solid indigo;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.summary {
+    border: 5px solid violet;
+}
+
+.articles {
+    border: 5px solid blue;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
